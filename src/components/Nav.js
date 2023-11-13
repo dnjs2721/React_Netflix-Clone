@@ -31,7 +31,7 @@ export default function Nav() {
                 alt={'Netflix logo'}
                 src={"img/logo.png"}
                 className={"nav__logo"}
-                onClick={() => window.location.href = "http://localhost:3000/"}
+                onClick={() => window.location.href = "/React_Netflix-clone"}
             />
             <input
                 value={searchValue}
